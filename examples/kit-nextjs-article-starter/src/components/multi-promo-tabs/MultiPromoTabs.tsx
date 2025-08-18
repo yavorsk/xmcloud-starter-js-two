@@ -27,8 +27,7 @@ export const Default: React.FC<MultiPromoTabsProps> = (props: MultiPromoTabsProp
     // Get the initially selected tab title for the dropdown display
     const initialTabTitle = tabItems[0]?.title?.jsonValue?.value || 'Select an option';
     // Get dropdown label text or use default
-    const droplistLabelText =
-      fields.droplistLabel || 'Select a value';
+    const droplistLabelText = fields.droplistLabel || 'Select a value';
 
     // When in editor mode, render all tabs stacked
     if (isEditMode) {
