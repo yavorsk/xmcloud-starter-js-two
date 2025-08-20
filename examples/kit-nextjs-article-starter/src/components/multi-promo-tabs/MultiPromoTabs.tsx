@@ -13,7 +13,7 @@ import { NoDataFallback } from '@/utils/NoDataFallback';
 import { MultiPromoTabsProps } from './multi-promo-tabs.props';
 import { Default as PromoTab } from './MultiPromoTab.dev';
 
-export const Default: React.FC<MultiPromoTabsProps> = (props: MultiPromoTabsProps) => {
+export const Default: React.FC<MultiPromoTabsProps> = (props) => {
   const [activeTab, setActiveTab] = useState(0);
   const { fields, isPageEditing } = props;
 

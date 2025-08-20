@@ -27,8 +27,6 @@ export interface MultiPromoTabsProps extends ComponentProps {
         };
       };
     };
-    title: Field<string>;
-    droplistLabel: Field<string>;
   };
   isPageEditing?: boolean;
 }
